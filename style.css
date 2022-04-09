@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+--Dark-cyan: hsl(185, 75%, 39%);
+--Very-dark: hsl(229, 23%, 23%);
+--Dark-grayish-blue: hsl(227, 10%, 46%);
+--Dark-gray: hsl(0, 0%, 59%);
+--font:"Kumbh Sans",sans-serif;
+}
+*{
+  padding:0;
+  margin:0;
+}
+
+html{
+  font-size:18px;
+ box-sizing: border-box;
+}
+body{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items: center;
+  height:100vh;
+  background-color: var(--Dark-cyan);
+/*  background-image: url("https://raw.githubusercontent.com/TheShub/git_test/99ab5e8223ec98f243ce7a7ea622feebaaa572f1/bg-pattern-bottom.svg"), url("https://raw.githubusercontent.com/TheShub/git_test/99ab5e8223ec98f243ce7a7ea622feebaaa572f1/bg-pattern-top.svg");
+  background-position: right bottom, left top;
+  background-repeat: no-repeat; */
+}
+
+.card{
+   background-color: white;
+   border-radius: 14px;
+  margin-bottom: 5em;
+}
+
+.card-bg{
+ margin-bottom:-3.3em;
+}
+
+.card-bg__img{
+ border-radius: 14px 14px 0 0;
+}
+
+.card-pic{
+ display: flex;
+  justify-content: center;
+  margin-bottom:1rem
+}
+
+.card-pic__photo{
+  border-radius:100%;
+   border: 5px solid white; 
+}
+ 
+.card-profile{
+  font-family: var(--font);
+ width: 19.3em;
+   border-radius: 0 0  14px 14px;
+  }
+
+.name{
+  text-align:center;
+  margin-bottom:0.5rem;
+  color: var(--Dark-gray);
+}
+
+strong{
+  color: black;
+  text-align:center;
+}
+
+.city{
+   color: var(--Dark-gray);
+  font-size: 14px;
+  text-align:center;
+  margin-bottom: 1rem;
+}
+
+.name{
+  text-align:center;
+  margin-bottom:0.5rem;
+  color: var(--Dark-gray);
+} 
+
+label{
+  margin-bottom: 1rem;
+   color: var(--Dark-gray);
+  font-size: 14px;
+  text-align: center;
+  margin-top: 0.3em;
+}
+
+hr{
+  max-width:100%;
+  margin-bottom: 1rem;
+}
+
+.data{
+  display:flex;
+  justify-content: space-around;
+  width:400px;
+  margin-left: -1.5rem;
+}
+
+.data-col{
+ display:flex;
+  flex-direction: column;
+  
+  }
